@@ -13,7 +13,7 @@ else {
     }
 
 
-var userInput = "Automobilis"
+var userInput = "obuolys"
 switch (userInput.toLowerCase()) {
     case "obuolys":
         console.log(userInput + " yra vaisius.");
@@ -46,7 +46,7 @@ switch (userInput.toLowerCase()) {
         console.log(userInput + " yra daržovė.");
         break;
     default:
-        console.log(userInput + "Nei vaisius nei daržovė.");
+        console.log(userInput + " nėra nei vaisius nei daržovė.");
 }
 
 var weekDay = prompt("Įveskite skaičių nuo 0-6")
